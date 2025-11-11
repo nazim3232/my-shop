@@ -1,0 +1,22 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.navbar{
+    padding: 0px 90px;
+    background-color: rgba(243, 6, 6, 0.5);
+    display: flex;
+    justify-content: space-between;
+    flex-direction:  row;
+    align-items: center;
+    height: 60px;
+    color: white;
+    font-weight: bold;   
+}
+
+.navbar i{
+    font-size: 25px;
+}
