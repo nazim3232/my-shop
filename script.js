@@ -171,7 +171,14 @@ let update = (a)=>{
 
      let search = basket.find((x)=>x.id ==a);
      document.getElementById(a).innerText = search.item;
+   calculation();
+  }
 
+  let calculation =()=>{
+    console.log("This is the calcuation function .");
+    let another =document.getElementById('cartAmount');
+    console.log(another)
+    another.innerText = basket.map((x)=>x.item).reduce((x, y)=>x+y, 0);
   }
 
 
